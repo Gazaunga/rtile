@@ -1,0 +1,55 @@
+settings: 
+ gaps: 
+  _top: 110
+  _bottom: 110
+  _left: 220
+  _right: 220
+  _windows_x: 20
+  _windows_y: 20
+ columns: 
+  _max_size_main: 10
+  _max_size: 10
+  _max_count: 10
+ window: 
+  - 
+   _class: mpv
+   _floating: true
+  - 
+   _class: chromium
+   _priority: high
+   _floating: true
+  - 
+   _class: pcmanfm
+   _floating: true
+  - 
+   _class: "gnome-control-center"
+   _floating: true
+ column_config: 
+  - 
+   _windows: 1
+   _workspace: all
+   _column_sizes: 1
+  - 
+   _windows: 2
+   _workspace: all
+   _column_sizes: "1, 1"
+  - 
+   _windows: 3
+   _workspace: all
+   _column_sizes: "1, 2"
+  - 
+   _windows: 4
+   _workspace: all
+   _column_sizes: "1, 3"
+  - 
+   _windows: 5
+   _workspace: all
+   _column_sizes: "2, 3"
+  - 
+   _windows: 6
+   _workspace: all
+   _column_sizes: "2, 4"
+  - 
+   _windows: 7
+   _workspace: all
+   _column_sizes: "3, 4"
