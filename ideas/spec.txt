@@ -1,0 +1,5 @@
+for f in dir
+  require *
+done
+
+Dir.glob(".rake/**.rake").each { |f| import f }
