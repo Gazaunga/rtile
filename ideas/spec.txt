@@ -2,6 +2,6 @@ for f in dir
   require *
 done
 
-Dir.glob(".rake/**.rake").each { |f| import f }
+Dir.glob("lib/**.rb").each { |f| require_relative f } # does this even work?
 
 I need to do a check for xdo
