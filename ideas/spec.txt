@@ -3,3 +3,5 @@ for f in dir
 done
 
 Dir.glob(".rake/**.rake").each { |f| import f }
+
+I need to do a check for xdo
